@@ -1,9 +1,7 @@
-**
 # ------------------------------------------------------
 # Peer graded assignment - Getting and Cleaning Data Course - John Hopkins University
 # Sébastien Brevet - 2021 - Course from coursera.org
 # ------------------------------------------------------
-**
 
 This assignment is from the Getting and Cleaning Data course from JH University and followed online on coursera.org website.
 
@@ -20,11 +18,9 @@ README.md - The file you are currently reading
 CodeBook.md - The file which explains what are the variables of the data
 tidyDataset.txt - The final tidied dataset of 180 observations and 88 variables
 
-**
 ## ------------------------------------------------------
 ## Initial data
 ## ------------------------------------------------------
-**
 
 The data linked to the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -32,11 +28,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The data for the project was here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
-**
 ## ------------------------------------------------------
 ## Instructions to transform the data
 ## ------------------------------------------------------
-**
 
 1- Merges the training and the test sets to create one data set.
 2- Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -44,20 +38,16 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4- Appropriately labels the data set with descriptive variable names. 
 5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-**
 ## ------------------------------------------------------
 ## Packages needed (loaded in the run_analysis.R script)
 ## ------------------------------------------------------
-**
 
 data.table
 dplyr
 
-**
 ## ------------------------------------------------------
 ## Data transformations scripted in run_analysis.R
 ## ------------------------------------------------------
-**
 
 ### ------------------------------------------------------
 ### 0- Data preparation
